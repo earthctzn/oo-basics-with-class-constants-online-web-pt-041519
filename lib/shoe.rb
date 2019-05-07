@@ -6,7 +6,7 @@ class Shoe
  
   def initialize(brand)
     @brand = brand
-    BRANDS.keep_if {|b| b =- 
+    BRANDS.keep_if {|b| b =- BRANDS} 
   end
 
   def cobble
